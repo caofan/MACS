@@ -1,3 +1,6 @@
+2013-02-28  Colin D <shadowexistence12@gmail.com>
+	Added custom --ratio flag which ignores the --to-small flag. Default is to ignore it
+
 2011-02-28  Tao Liu  <taoliu@jimmy.harvard.edu>
 	Small fixes
 
