@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2013-07-31  Tao Liu  <vladimir.liu@gmail.com>
 	MACS version 2.0.10 20130731 (tag:alpha)
 
@@ -449,6 +450,10 @@
 	precision of float number.
 
 	* Cython is adopted to speed up Python code.
+=======
+2013-02-28  Colin D <shadowexistence12@gmail.com>
+	Added custom --ratio flag which ignores the --to-small flag. Default is to ignore it
+>>>>>>> upstream/ratio-branch
 
 2011-02-28  Tao Liu  <taoliu@jimmy.harvard.edu>
 	Small fixes
