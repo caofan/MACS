@@ -280,10 +280,10 @@ class PeakDetect:
         Finally, a poisson CDF is applied to calculate one-side pvalue
         for enrichment.
         """
-        cdef float lambda_bg, effective_depth_in_million
+        cdef float lambda_bg, effective_depth_in_million  # @DuplicatedSignature
         cdef float treat_scale = 1
         cdef float d
-        cdef list ctrl_scale_s, ctrl_d_s
+        cdef list ctrl_scale_s, ctrl_d_s  # @DuplicatedSignature
 
         if self.PE_MODE: d = 0
         else: d = self.d

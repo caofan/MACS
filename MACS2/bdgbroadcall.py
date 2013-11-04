@@ -47,7 +47,7 @@ info    = logging.info
 # ------------------------------------
 def run( options ):
     info("Read and build bedGraph...")
-    bio = cBedGraphIO.bedGraphIO(options.ifile)
+    bio = cBedGraphIO.bedGraphIO(options.ifile)  # @UndefinedVariable
     btrack = bio.build_bdgtrack(baseline_value=0)
 
     info("Call peaks from bedGraph...")

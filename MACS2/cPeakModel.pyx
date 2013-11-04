@@ -44,7 +44,7 @@ class NotEnoughPairsException(Exception):
 class PeakModel:
     """Peak Model class.
     """
-    def __init__ (self, opt=None, treatment=None, max_pairnum=500, gz = 0, umfold=30, lmfold=10, bw=200, ts = 25, bg=0, quiet=False):
+    def __init__ (self, opt=None, treatment=None, max_pairnum=500, gz = 0, umfold=30, lmfold=10, bw=200, ts = 25, bg=0, quiet=False):  # @DuplicatedSignature
         self.treatment = treatment
         if opt:
             self.gz = opt.gsize
@@ -118,7 +118,7 @@ class PeakModel:
         self.debug("Use %d pairs to build the model." % (num_paired_peakpos_picked))
         self.__paired_peak_model(paired_peakpos)
 
-    def __str__ (self):
+    def __str__ (self):  # @DuplicatedSignature
         """For debug...
 
         """
